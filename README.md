@@ -33,4 +33,5 @@ Create an instance of a Car and change its color.<br>
 We would ordinarily have written our tests first, then written code to make them pass. Why? <br>
 Create a unit test for our Car class to test our "painting" method.<br>
 A car should have a driver. Create an instance_double Driver. <br>
-Write a second test for this and make it pass. </i>
+Write a second test for this and make it pass. <br>
+- <b>DONE</b>
