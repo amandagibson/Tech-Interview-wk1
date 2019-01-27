@@ -1,0 +1,56 @@
+Q1: 
+var = variable
+string- "this is a string", 
+hash- { name: "Amanda", age: 29, gender: "female" }
+numbers- integer- 8, float- 7.56
+array - cars = ["Audi", "BMW", "Mercedes"]
+__________________________________________________________________________
+Q2:
+car1 = { wheels: 2, max_speed: 500, color: "grey" }
+car2 = { wheels: 6, max_speed: 50, color: "red" }
+cars = [car1, car2]
+cars[1]
+car2[:color]
+__________________________________________________________________________
+Q3:
+see car.rb
+
+to test in irb:
+$ irb
+$ load './lib/car.rb'
+=> true
+$ my_car = Car.new
+$ my_car.change_color('Pink')
+=> "Pink
+
+you can check for changes by entering my_car into irb and it gives the details of my_car. Color can be changed to whatever, doesn't have to be pink or black as specified in the example and/or code.
+__________________________________________________________________________
+Q4:
+To initialize RSpec within a folder:
+*In terminal*
+$ cd <desired folder>
+$ touch Gemfile
+$ code .
+*In VSC*
+source 'http://rubygems.org'
+gem 'rspec'
+*In terminal*
+$ bundle
+$ rspec --init
+*in .rspec- 
+--require spec_helper
+--format documentation
+--color
+
+
+We want to write tests before code so that we can find bugs, make sure things pass in a controlled environment, also it can help simplify code and stimulate critical thinking.
+__________________________________________________________________________
+
+Resources used: Demo- Unit tests with RSpec
+
+
+Create a unit test for our Car class to test our "painting" method.
+A car should have a driver. Create an instance_double Driver. Write a second test for this and make it pass. 
+
+
+
